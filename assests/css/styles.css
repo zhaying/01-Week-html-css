@@ -1,0 +1,19 @@
+/** Filename: style.css **/
+
+/** CSS minimal RESET **/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/** CSS MAIN **/
+body {
+ margin: 1px;
+ color: black;
+ background-color: gray;
+ font-size: 16px;
+ text-align: center;
+}
