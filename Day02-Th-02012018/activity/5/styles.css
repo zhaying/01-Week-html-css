@@ -1,0 +1,13 @@
+/** edit default bootstrap buttons **/
+/* primary button */
+    .btn-primary {
+        border-color: #3276b1;
+        border-radius: 25px;
+    }
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary:active    {
+        background-color: #3276b1;
+        color: #FFF;
+        border-color: #285e8e;
+    }

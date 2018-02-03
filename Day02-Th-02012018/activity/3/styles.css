@@ -1,0 +1,13 @@
+/** activity 3 Filename: styles.css **/
+a:default {
+	color: red;
+}
+a:active {
+	color: orange;
+}
+a:hover {
+	color: yellow;
+}
+a:focus {
+	color: green;
+}

@@ -1,0 +1,84 @@
+/** Filename: style.css **/
+
+/** CSS minimal RESET **/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/** CSS MAIN **/
+body {
+ margin: 1px;
+ color: #fff;
+ background-color: gray;
+ font-size: 16px;
+ text-align: center;
+}
+header {
+	margin: 0 auto;
+	font-size: 20px;
+}
+nav {
+	font-size: 20px;
+}
+section {
+	width: 55%;
+	height: 500px;
+	float: left;
+	color: grey;
+	background-color: blue;
+	padding: 20px;
+	font-size: 20px;
+}
+aside {
+	width: 40%;
+	height: 500px;
+	float: right;
+	margin-left: 5px;
+	color: grey;
+}
+article {
+	background-color: grey;
+	color: lightgrey;
+	height: 50%;
+	padding: 20px;
+	font-size: 20px;
+}
+h1 {
+	color: grey;
+	background-color: lightgrey;
+	width: 95%;
+	margin-left: 10px;
+	height: 30%;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	padding: 20px;
+	font-size: 20px;
+}
+p {
+	background-color: lightgrey;
+	color: grey;
+	width: 95%;
+	margin-left: 10px;
+	height: 30%;
+	margin-bottom: 10px;
+	padding: 20px;
+	font-size: 20px;
+}
+footer {
+	clear: both;
+	color: grey;
+}
+
+/** CSS CLASSES **/
+.common-defaults {
+	background-color: lightgrey;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 20px;
+}
